@@ -7,9 +7,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
 public class DepartmentCartActivity extends AppCompatActivity implements OnClickListener {
     private final static String TAG = "DepartmentCartActivity";
 

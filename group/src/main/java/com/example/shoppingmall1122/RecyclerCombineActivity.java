@@ -8,12 +8,9 @@ import android.support.v7.widget.RecyclerView;
 
 import com.example.shoppingmall1122.adapter.RecyclerCombineAdapter;
 import com.example.shoppingmall1122.bean.GoodsInfo;
-import com.example.shoppingmall1122.bean.PhonesInfo;
 import com.example.shoppingmall1122.widget.SpacesItemDecoration;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
+
 public class RecyclerCombineActivity extends AppCompatActivity {
 
     @Override

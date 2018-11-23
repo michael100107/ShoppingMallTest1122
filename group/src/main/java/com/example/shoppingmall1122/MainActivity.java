@@ -8,9 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
+
 public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     @Override

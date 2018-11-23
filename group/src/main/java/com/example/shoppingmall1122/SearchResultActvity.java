@@ -1,6 +1,5 @@
 package com.example.shoppingmall1122;
 
-import android.annotation.SuppressLint;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
-@SuppressLint("SetTextI18n")
 public class SearchResultActvity extends AppCompatActivity {
     private static final String TAG = "SearchResultActvity";
     private TextView tv_search_result;

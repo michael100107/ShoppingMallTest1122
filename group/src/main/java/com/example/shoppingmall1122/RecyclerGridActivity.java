@@ -2,7 +2,6 @@ package com.example.shoppingmall1122;
 
 import com.example.shoppingmall1122.adapter.RecyclerGridAdapter;
 import com.example.shoppingmall1122.bean.GoodsInfo;
-import com.example.shoppingmall1122.bean.PhonesInfo;
 import com.example.shoppingmall1122.widget.SpacesItemDecoration;
 
 import android.os.Bundle;
@@ -11,9 +10,6 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
 public class RecyclerGridActivity extends AppCompatActivity {
 
     @Override

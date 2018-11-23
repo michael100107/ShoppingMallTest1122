@@ -17,9 +17,6 @@ import com.example.shoppingmall1122.adapter.ClassPagerAdapter;
 import com.example.shoppingmall1122.util.DateUtil;
 import com.example.shoppingmall1122.util.MenuUtil;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
 public class DepartmentClassActivity extends AppCompatActivity {
     private final static String TAG = "DepartmentClassActivity";
     private ViewPager vp_content; // 定义一个翻页视图对象

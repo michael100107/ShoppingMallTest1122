@@ -7,7 +7,6 @@ import com.example.shoppingmall1122.database.GoodsDBHelper;
 import com.example.shoppingmall1122.util.DateUtil;
 import com.example.shoppingmall1122.util.SharedUtil;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -19,10 +18,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/**
- * Created by ouyangshen on 2017/10/1.
- */
-@SuppressLint("SetTextI18n")
 public class ShoppingDetailActivity extends AppCompatActivity implements OnClickListener {
     private TextView tv_title;
     private TextView tv_count;

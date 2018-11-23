@@ -2,7 +2,6 @@ package com.example.shoppingmall1122.database;
 
 import java.util.ArrayList;
 
-import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -12,7 +11,6 @@ import android.util.Log;
 
 import com.example.shoppingmall1122.bean.PhonesInfo;
 
-@SuppressLint("DefaultLocale")
 public class GoodsDBHelper extends SQLiteOpenHelper {
     private static final String TAG = "GoodsDBHelper";
     private static final String DB_NAME = "goods.db"; // 数据库的名称

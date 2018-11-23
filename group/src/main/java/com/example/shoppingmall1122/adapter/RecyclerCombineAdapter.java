@@ -2,7 +2,6 @@ package com.example.shoppingmall1122.adapter;
 
 import java.util.ArrayList;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
@@ -23,7 +22,6 @@ import com.example.shoppingmall1122.util.Utils;
 import com.example.shoppingmall1122.widget.RecyclerExtras.OnItemClickListener;
 import com.example.shoppingmall1122.widget.RecyclerExtras.OnItemLongClickListener;
 
-@SuppressLint("DefaultLocale")
 public class RecyclerCombineAdapter extends RecyclerView.Adapter<ViewHolder> implements
         OnItemClickListener, OnItemLongClickListener {
     private final static String TAG = "RecyclerCombineAdapter";

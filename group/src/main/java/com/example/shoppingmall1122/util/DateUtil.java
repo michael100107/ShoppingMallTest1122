@@ -1,15 +1,10 @@
 package com.example.shoppingmall1122.util;
 
-import android.annotation.SuppressLint;
 import android.text.TextUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by ouyangshen on 2017/9/24.
- */
-@SuppressLint("SimpleDateFormat")
 public class DateUtil {
     public static String getNowDateTime(String formatStr) {
         String format = formatStr;

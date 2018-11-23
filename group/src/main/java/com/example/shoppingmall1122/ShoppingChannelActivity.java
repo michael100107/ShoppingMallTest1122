@@ -10,7 +10,6 @@ import com.example.shoppingmall1122.util.DateUtil;
 import com.example.shoppingmall1122.util.SharedUtil;
 import com.example.shoppingmall1122.util.Utils;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -27,10 +26,6 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.ImageView.ScaleType;
 
-/**
- * Created by ouyangshen on 2017/10/1.
- */
-@SuppressLint("SetTextI18n")
 public class ShoppingChannelActivity extends AppCompatActivity implements OnClickListener {
     private TextView tv_count;
     private LinearLayout ll_channel;

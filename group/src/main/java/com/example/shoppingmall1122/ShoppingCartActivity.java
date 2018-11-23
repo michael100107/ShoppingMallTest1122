@@ -3,7 +3,6 @@ package com.example.shoppingmall1122;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -36,10 +35,7 @@ import com.example.shoppingmall1122.database.GoodsDBHelper;
 import com.example.shoppingmall1122.util.FileUtil;
 import com.example.shoppingmall1122.util.SharedUtil;
 
-/**
- * Created by ouyangshen on 2017/10/1.
- */
-@SuppressLint("SetTextI18n")
+
 public class ShoppingCartActivity extends Activity implements OnClickListener {
     private final static String TAG = "ShoppingCartActivity";
     private ImageView iv_menu;

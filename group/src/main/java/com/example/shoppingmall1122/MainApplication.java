@@ -6,9 +6,6 @@ import android.app.Application;
 import android.graphics.Bitmap;
 import android.util.Log;
 
-/**
- * Created by ouyangshen on 2017/10/1.
- */
 public class MainApplication extends Application {
     private final static String TAG = "MainApplication";
     // 声明一个当前应用的静态实例

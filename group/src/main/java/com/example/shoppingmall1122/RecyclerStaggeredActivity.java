@@ -2,7 +2,6 @@ package com.example.shoppingmall1122;
 
 import com.example.shoppingmall1122.adapter.RecyclerStaggeredAdapter;
 import com.example.shoppingmall1122.bean.GoodsInfo;
-import com.example.shoppingmall1122.bean.PhonesInfo;
 import com.example.shoppingmall1122.widget.SpacesItemDecoration;
 
 import android.os.Bundle;
@@ -12,9 +11,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.widget.LinearLayout;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
 public class RecyclerStaggeredActivity extends AppCompatActivity {
 
     @Override

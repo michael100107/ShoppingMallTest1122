@@ -1,6 +1,5 @@
 package com.example.shoppingmall1122;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -25,10 +24,6 @@ import com.example.shoppingmall1122.widget.BannerPager;
 import com.example.shoppingmall1122.widget.SpacesItemDecoration;
 import com.example.shoppingmall1122.widget.BannerPager.BannerClickListener;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
-@SuppressLint("DefaultLocale")
 public class DepartmentHomeActivity extends AppCompatActivity implements BannerClickListener {
     private final static String TAG = "DepartmentHomeActivity";
 

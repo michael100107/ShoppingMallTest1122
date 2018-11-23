@@ -1,6 +1,5 @@
 package com.example.shoppingmall1122;
 
-import android.annotation.SuppressLint;
 import android.app.SearchManager;
 import android.app.SearchableInfo;
 import android.content.ComponentName;
@@ -23,10 +22,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import com.example.shoppingmall1122.util.DateUtil;
 import com.example.shoppingmall1122.util.MenuUtil;
 
-/**
- * Created by ouyangshen on 2017/10/21.
- */
-@SuppressLint("SetTextI18n")
 public class SearchViewActivity extends AppCompatActivity {
     private final static String TAG = "SearchViewActivity";
     private TextView tv_desc;

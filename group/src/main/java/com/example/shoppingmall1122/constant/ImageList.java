@@ -4,9 +4,6 @@ import com.example.shoppingmall1122.R;
 
 import java.util.ArrayList;
 
-/**
- * Created by ouyangshen on 2018/1/4.
- */
 
 public class ImageList {
 
