@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ch7_Group_1122.iml" filepath="$PROJECT_DIR$/Ch7_Group_1122.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShoppingMallTest1122.iml" filepath="$PROJECT_DIR$/ShoppingMallTest1122.iml" />
       <module fileurl="file://$PROJECT_DIR$/group/group.iml" filepath="$PROJECT_DIR$/group/group.iml" />
     </modules>
   </component>
