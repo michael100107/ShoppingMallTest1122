@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.btn_tab_button).setOnClickListener(this);
-
     }
 
     @Override
@@ -27,5 +26,4 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             startActivity(intent);
         }
     }
-
 }

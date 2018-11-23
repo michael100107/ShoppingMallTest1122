@@ -27,12 +27,12 @@ public class DepartmentCartActivity extends AppCompatActivity implements OnClick
             }
         });
 
-        findViewById(R.id.tv_desc).setOnClickListener(this);
+        findViewById(R.id.btn_cart).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.tv_desc) {
+        if (v.getId() == R.id.btn_cart) {
             Intent intent = new Intent(this, ShoppingCartActivity.class);
             startActivity(intent);
         }
