@@ -54,11 +54,11 @@ public class SearchViewActivity extends AppCompatActivity {
         // 从系统服务中获取搜索管理器
         SearchManager sm = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         // 创建搜索结果页面的组件名称对象
-        ComponentName cn = new ComponentName(this, SearchResultActvity.class);
+        ComponentName cn = new ComponentName(this, SearchResultActivity.class);
         // 从结果页面注册的activity节点获取相关搜索信息，即searchable.xml定义的搜索控件
         SearchableInfo info = sm.getSearchableInfo(cn);
         if (info == null) {
-            Log.d(TAG, "Fail to get SearchResultActvity.");
+            Log.d(TAG, "Fail to get SearchResultActivity.");
             return;
         }
         // 设置搜索框的可搜索信息

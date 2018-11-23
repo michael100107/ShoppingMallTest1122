@@ -11,6 +11,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.ContextMenu;
@@ -36,7 +38,7 @@ import com.example.shoppingmall1122.util.FileUtil;
 import com.example.shoppingmall1122.util.SharedUtil;
 
 
-public class ShoppingCartActivity extends Activity implements OnClickListener {
+public class ShoppingCartActivity extends AppCompatActivity implements OnClickListener {
     private final static String TAG = "ShoppingCartActivity";
     private ImageView iv_menu;
     private TextView tv_count;
@@ -53,6 +55,10 @@ public class ShoppingCartActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_shopping_cart);
+        // 从布局文件中获取名叫tl_head的工具栏
+        Toolbar tl_head = findViewById(R.id.tl_head);
+        // 使用tl_head替换系统自带的ActionBar
+        setSupportActionBar(tl_head);
         iv_menu = findViewById(R.id.iv_menu);
         TextView tv_title = findViewById(R.id.tv_title);
         tv_count = findViewById(R.id.tv_count);

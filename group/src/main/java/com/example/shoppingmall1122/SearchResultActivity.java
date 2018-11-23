@@ -9,8 +9,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class SearchResultActvity extends AppCompatActivity {
-    private static final String TAG = "SearchResultActvity";
+public class SearchResultActivity extends AppCompatActivity {
+    private static final String TAG = "SearchResultActivity";
     private TextView tv_search_result;
 
     @Override

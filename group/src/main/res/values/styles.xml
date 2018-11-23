@@ -32,7 +32,7 @@
         <item name="android:textColor">@drawable/toolbar_text_selector</item>
     </style>
 
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
-    </style>
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light">-->
+    <!--</style>-->
 </resources>
 
